@@ -20,7 +20,7 @@ class GumballMachine {
   //Methods
   void insertQuarter() {
     if (state == HAS_QUARTER) {
-      print('Quarter returned');
+      print('You can not insert another quarter');
     } else if (state == NO_QUARTER) {
       state = HAS_QUARTER;
       print('You inserted a quarted');
